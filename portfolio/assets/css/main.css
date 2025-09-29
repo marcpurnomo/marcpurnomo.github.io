@@ -479,7 +479,7 @@
 		font-family: "Source Sans Pro", "sans-serif";
 		font-weight: 300;
 		font-size: 18pt;
-		line-height: 1.75em;
+		line-height: 1.25em;
 		color: #39454b;
 		letter-spacing: 0.025em;
 	}
@@ -527,10 +527,11 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
-		text-transform: uppercase;
-		letter-spacing: 1.5px;
+		/*letter-spacing: 1.5px;*/
 		color: inherit;
 		font-style: normal;
+		font-weight: 600;
+		margin-bottom: 10px;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -915,7 +916,7 @@
 			top: 0;
 			width: 100%;
 			height: 100%;
-			background: url("images/overlay.png");
+			/*background: url("images/overlay.png");*/
 		}
 
 		.image img {
@@ -1783,7 +1784,7 @@
 			padding: 0;
 			font-style: normal;
 			font-size: 18px;
-    		line-height: 1.8em;
+    		line-height: 1.5em;
 		}
 
 			.main > .content > :last-child {
@@ -2201,3 +2202,30 @@
 			}
 
 		}
+
+/* Case study */
+	.casestudy{
+		font-size: 16pt;
+		line-height: 1.5em;
+	} 
+	.casestudy #intro {
+		text-align: left;
+	}
+	.casestudy #intro p {
+		margin-bottom: 0.2em;
+	}
+	.casestudy #intro hr {
+		margin-top: 0.1em;
+		margin-bottom: 0.3em;
+	}
+	.main.white {
+		background-color: white;
+	}
+
+	.main.grey {
+		background-color: #EFEFEF;
+	}
+	
+	.casestudy img {
+		margin-bottom: 1em;
+	}
