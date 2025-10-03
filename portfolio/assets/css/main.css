@@ -1899,6 +1899,9 @@
 				-webkit-justify-content: -webkit-flex-start;
 				-ms-justify-content: -ms-flex-start;
 				justify-content: flex-start;
+				background-image: url('../../images/intro.jpg');
+				background-size: cover;
+				background-blend-mode: soft-light;
 			}
 
 			.main.style2.right {
@@ -1906,6 +1909,9 @@
 				-webkit-justify-content: -webkit-flex-end;
 				-ms-justify-content: -ms-flex-end;
 				justify-content: flex-end;
+				background-image: url('../../images/one.jpg');
+				background-size: cover;
+				background-blend-mode: soft-light;
 			}
 
 			.main.style2.inactive.left > .content {
