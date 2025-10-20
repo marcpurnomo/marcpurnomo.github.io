@@ -330,7 +330,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ffe4b4;
+			color: #E86858;
 		}
 
 	strong, b {
@@ -1538,8 +1538,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 2px #ffe4b4;
-			color: #ffe4b4 !important;
+			box-shadow: inset 0 0 0 2px #E86858;
+			color: #E86858; !important;
 		}
 
 		input[type="submit"]:active,
@@ -1693,7 +1693,8 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #ffe4b4;
+				background-color: #E86858;
+				color: #FFF !important;
 			}
 
 			input[type="submit"].primary:active,
@@ -3592,7 +3593,7 @@ input, select, textarea {
 		transition-delay: 0.25s;
 		cursor: default;
 		position: relative;
-		height: 36rem;
+		height: 42rem;
 	}
 
 		#wrapper > .scrollZone {
@@ -3713,6 +3714,17 @@ input, select, textarea {
 
 	}
 
+.gallery a {
+	border-bottom: none;
+}
+
+.gallery a:hover h3 {
+	color: #E86858;
+	-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+	-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+}
 
 .project .gallery .project-inner{
 	padding: 2rem;
@@ -3722,5 +3734,45 @@ input, select, textarea {
 .project .gallery .project-inner img{
 	position: relative;
 	width:80%;
-	margin: 1.5rem auto 0;
+	margin: 0 auto 1rem;
+}
+
+.project .gallery .project-inner .project-desc{
+	width: 80%;
+	text-align: center;
+	margin: 0 auto 1rem;
+}
+
+.panel.project {
+	padding: 2em 0 0;
+}
+
+ul.actions.next{
+	display: block;
+	width: 90%;
+	position: absolute;
+	bottom: 2rem;
+	right: 3rem;
+	left: 3rem;
+}
+ul.actions.next.right{
+	text-align: right;
+}
+
+ul.tags {
+  display: inline-block;
+  cursor: default;
+  list-style: none;
+  margin-left: -0.75rem;
+  padding-left: 0;
+}
+ul.tags li{
+	display: inline-block;
+	border: 1px solid #CCC;
+	border-radius: 1rem;
+	padding: 2px 10px;
+  margin: 0 4px;
+}
+ul.tags li:hover{
+	color: black;
 }
